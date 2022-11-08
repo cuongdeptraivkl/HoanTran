@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#221717, #9198e5);
+    font-family: cursive;
+  } 
+  .text marquee:nth-child(1){
+    font-size: 25px;
+    color: #fff;
+  }
+  .text marquee:nth-child(2){
+    font-size: 36px;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 1px 0 5px;
+  }
+  canvas {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+  }
